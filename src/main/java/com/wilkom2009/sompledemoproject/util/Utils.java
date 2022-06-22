@@ -10,7 +10,7 @@ public class Utils {
     public static double calculateAverage(double a, double b) {
         return (a + b) / 2;
     }
-
+    
     public static double calculateTabAverage(double[] tab) {
         if (tab == null || tab.length == 0) {
             return 0;
@@ -49,7 +49,7 @@ public class Utils {
         }
         return 0;
     }
-
+    
     /**
      * Count a number of vowels in the provided text
      * 
@@ -105,7 +105,7 @@ public class Utils {
         return 0;
     }
 
-    /**
+    /** 
      * Count number of occurences of provided word in the given text
      * 
      * @param word
