@@ -17,4 +17,13 @@ public class MainController {
         d.move();
         return "Hello world";
     }
+
+    @GetMapping
+    public String welcom() {
+        Animal a = new Animal();
+        a.move();
+        Dog d = new Dog();
+        d.move();
+        return "welcome API";
+    }
 }
